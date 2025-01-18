@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <!-- Remotes -->
+    <remote name="bitbucket-prv" fetch="git@bitbucket.org:obeny" />
+
+    <!-- Replacements -->
+    <project path="packages/apps/Updater" name="obeny/los_packages_apps_Updater" revision="lineage-19.1" />
+
+    <!-- Signing keys -->
+    <project path="vendor/lineage-priv" name="android_build_keys" remote="bitbucket-prv" revision="refs/heads/master" />
+</manifest>
