@@ -1,3 +1,6 @@
 [submodule "extra"]
 	path = extra
 	url = git@github.com:obeny/android_build_extra.git
+[submodule "local_manifests"]
+	path = local_manifests
+	url = git@github.com:obeny/android_local_manifests.git
